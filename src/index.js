@@ -13,7 +13,7 @@ function displayVows(response) {
 function generateVows(event) {
   event.preventDefault();
   let context =
-    "Please provide a short paragrah for wedding vows, focusing on love and romanticism. The paragraph must be 5 lines maximum and provided as basic HTML and separate each sentence with a <br>";
+    "Please provide a short paragrah for wedding vows, focusing on love and romanticism. The paragraph must be 5 lines maximum and every new sentence must start a new line";
   let prompt = "Generate wedding vows";
   let apiKey = "d2fcf0to3278b4e6ab12b4d9a002d5f2";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;

@@ -1,6 +1,6 @@
 body {
   background-color: #fdf4e3;
-  font-family: "Pinyon Script", cursive;
+  font-family: "Calligraffitti", cursive;
 }
 
 .container {
@@ -31,7 +31,7 @@ input {
 }
 
 label {
-  font-size: 22px;
+  font-size: 18px;
   padding-left: 6px;
 }
 .entry {
@@ -45,15 +45,21 @@ label {
   border-radius: 10px;
   color: black;
   width: 103px;
-  font-family: "Pinyon Script", cursive;
+  font-family: "Calligraffitti", cursive;
   font-size: 15px;
 }
 
 blockquote {
   line-height: 2;
+  padding-top: 20px;
 }
 footer {
   text-align: center;
+  color: #7f7f7f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  display: flex;
+  position: fixed;
+  bottom: 110px;
+  padding-left: 45px;
 }
