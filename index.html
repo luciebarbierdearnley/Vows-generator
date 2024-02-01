@@ -5,30 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vows generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pinyon+Script&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
-    <h1>Vows generator</h1>
-    <form>
-      <input
-        type="text"
-        placeholder="Enter a few words about your partner"
-        autofocus
-        required />
-      <input type="submit" value="Generate" />
-    </form>
-    <div>Enter answer here</div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/luciebarbierdearnley" target="_blank"
-        >Lucie Barbier-Dearnley</a
-      >, is open-sourced on
-      <a
-        href="https://github.com/luciebarbierdearnley/Vows-generator"
-        target="_blank"
-        >GitHub</a
-      >, hosted on
-      <a href="https://vow-generator.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+    <div class="container">
+      <h1>💍 Vows generator</h1>
+      <form>
+        <label for="description">Enter a few words about your partner</label>
+        <input
+          id="description"
+          class="entry"
+          type="text"
+          required
+          placeholder="..." />
+        <input class="search" type="submit" value="Go" />
+      </form>
+      <div>
+        <blockquote>answer here</blockquote>
+      </div>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/luciebarbierdearnley" target="_blank"
+          >Lucie Barbier-Dearnley</a
+        >, is open-sourced on
+        <a
+          href="https://github.com/luciebarbierdearnley/Vows-generator"
+          target="_blank"
+          >GitHub</a
+        >, hosted on
+        <a href="https://vow-generator.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

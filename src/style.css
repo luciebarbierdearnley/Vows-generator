@@ -1,0 +1,56 @@
+body {
+  background-color: #fdf4e3;
+  font-family: "Pinyon Script", cursive;
+}
+
+.container {
+  width: 600px;
+  height: 550px;
+  background-color: white;
+  margin: 150px auto;
+  padding: 50px 30px;
+  border-radius: 30px;
+  box-shadow: 0px 8px 8px 8px rgb(140, 146, 172, 0.1);
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 45px;
+  padding-left: 10px;
+}
+
+form {
+  background-color: #fdf4e3;
+  padding: 40px 11px;
+  border-radius: 10px;
+  border-left: solid #ffb85d 3px;
+}
+
+input {
+  padding: 10px;
+}
+
+label {
+  font-size: 22px;
+  padding-left: 6px;
+}
+.entry {
+  width: 440px;
+  border: none;
+  border-radius: 10px;
+}
+
+.search {
+  border: none;
+  border-radius: 10px;
+  color: black;
+  width: 103px;
+  font-family: "Pinyon Script", cursive;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
