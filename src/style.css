@@ -7,10 +7,12 @@ h1 {
   font-size: 80px;
   margin-top: 80px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 hr {
   max-width: 900px;
+  margin-bottom: 50px;
 }
 .large-container {
   background-image: url(https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_1280.jpg);
@@ -72,4 +74,5 @@ footer {
   color: #7f7f7f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  margin-top: 15px;
 }
